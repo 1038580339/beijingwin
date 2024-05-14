@@ -1,0 +1,125 @@
+.index {
+    .topTabBar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: white;
+
+        .topFontStyle {
+            color: #222222;
+            font-size: 26px;
+            text-align: center;
+        }
+
+        .selectedTopFontStyle {
+            color: #0490bf;
+            font-size: 26px;
+            text-align: center;
+            background-color: #cde9f2;
+            width: 70%;
+            margin: 0 auto;
+            border-radius: 20px;
+        }
+
+    }
+
+    .topTag {
+        margin: 22px 22px;
+
+        .topTagContent {
+            margin-left: 28px;
+            font-size: 26px;
+            height: 44px;
+            line-height: 44px;
+            border-color: #c1c5c8;
+            color: #c1c5c8;
+            padding: 0 20px;
+        }
+
+        .at-tag--active {
+            color: white;
+            border-color: #c7177e;
+            background-color: #c7177e;
+        }
+    }
+
+    .noTitleList {
+        .noTitleListView {
+            text-align: center;
+            margin-left: 24px;
+            position: relative;
+
+            .noTitleListViewImg {
+                width: 100%;
+                height: 360px;
+                margin-left: 22px;
+                display: inline-block;
+            }
+
+            .noTitleListViewButtonView {
+                position: absolute;
+                bottom: 50px;
+                right: 0;
+                padding: 9rpx 14rpx;
+                background-color: rgba(199, 23, 126, 0.2);
+                border-radius: 50%;
+                text-align: center;
+            }
+        }
+    }
+
+    .hasTitleList {
+        width: 100%;
+        background-color: white;
+        margin-top: 14px;
+        box-sizing: border-box;
+        padding: 15px 28px;
+
+        .hasTitleListView {
+            display: flex;
+            align-items: center;
+            .hasTitleListViewImg {
+                width: 252px;
+                height: 174px;
+                display: inline-block;
+                vertical-align: middle;
+                border-radius: 10px;
+            }
+        }
+
+        .hasTitleListContent {
+            box-sizing: border-box;
+            padding-left: 35px;
+
+            .hasTitleListContentTitle {
+                font-size: 28px;
+                color: #171717;
+                word-wrap: break-word;
+                white-space: pre-wrap;
+                min-height: 76px;
+            }
+
+            .hasTitleListContentTime {
+                font-size: 20px;
+                color: #7a7a7a;
+                margin-top: 15px;
+            }
+
+            .hasTitleListContentButtonGroup {
+                margin-top: 15px;
+
+                .button {
+                    color: white;
+                    font-size: 22px;
+                    padding: 9px 19px;
+                    background-color: #c7177e;
+                    border-radius: 10px;
+                }
+
+                .button2 {
+                    background-color: #6abcd8;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

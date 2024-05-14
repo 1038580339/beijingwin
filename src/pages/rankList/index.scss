@@ -1,0 +1,85 @@
+.rankTop {
+    background: no-repeat url('../../assets/rankBg.png');
+    background-size: 100% 100%;
+    width: 645px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: auto;
+
+    .rankTopContent {
+        color: #00a6ce;
+        margin-left: 70px;
+        margin-top: 96px;
+
+        .text1 {
+            font-size: 28px;
+        }
+
+        .text2 {
+            font-size: 35px;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+    }
+}
+
+.rankMe {
+    color: #a6a6a6;
+    font-size: 25px;
+    padding-left: 36px;
+    margin-top: 55px;
+
+    .rankMeNum {
+        color: #ea258c;
+        margin-left: 20px;
+    }
+}
+
+.rankList {
+    width: 700px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 55px;
+
+    .rankListItem {
+        font-size: 33px;
+        padding: 40px 25px;
+        border-bottom-width: 1px;
+        border-color: #f9f9f9;
+        border-style: solid;
+        box-sizing: border-box;
+
+        .prefixIcon {
+            width: 70px;
+            display: inline-block;
+            height: 36px;
+            vertical-align: middle;
+        }
+
+        .prefixIcon0 {
+            background: no-repeat url('../../assets/one.png');
+            background-size: 100% 100%;
+        }
+
+        .prefixIcon1 {
+            background: no-repeat url('../../assets/two.png');
+            background-size: 100% 100%;
+        }
+
+        .prefixIcon2 {
+            background: no-repeat url('../../assets/three.png');
+            background-size: 100% 100%;
+        }
+
+        .rankListRight {
+            text-align: right;
+
+            .endfixIcon {
+                width: 60px;
+                display: inline-block;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+.mine {
+    .myBg {
+        width: 100%;
+    }
+
+    .list {
+        width: 710px;
+        margin: 0 auto;
+        margin-top: 34px;
+        border-radius: 10px;
+
+        .listItem::after {
+            border-bottom-style: none;
+        }
+    }
+
+    .list::after {
+        border-top-width: 0;
+        border-bottom-width: 0;
+    }
+
+}
