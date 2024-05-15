@@ -1,4 +1,4 @@
 export default {
-  navigationBarTitleText: '首页',
+  navigationBarTitleText: 'WE活动',
   transparentTitle: 'auto',
 }

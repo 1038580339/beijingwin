@@ -1,6 +1,8 @@
 export default {
   pages: [
-    'pages/index/index',
+    'pages/home/index',
+    'pages/market/index',
+    'pages/active/index',
     'pages/mine/index',
     'pages/userPic/index',
     'pages/rankList/index',
@@ -21,10 +23,22 @@ export default {
     backgroundColor: "#fff",
     list: [
       {
-        pagePath: "pages/index/index",
+        pagePath: "pages/home/index",
         text: "首页",
         iconPath: 'assets/home.png',
         selectedIconPath: 'assets/homeSelect.png'
+      },
+      {
+        pagePath: "pages/market/index",
+        text: "市场",
+        iconPath: 'assets/market.png',
+        selectedIconPath: 'assets/marketSelect.png'
+      },
+      {
+        pagePath: "pages/active/index",
+        text: "活动",
+        iconPath: 'assets/active.png',
+        selectedIconPath: 'assets/activeSelect.png'
       },
       {
         pagePath: "pages/mine/index",
