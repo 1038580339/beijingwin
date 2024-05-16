@@ -47,5 +47,5 @@ export default {
         selectedIconPath: 'assets/mySelect.png'
       },
     ]
-  }
+  },
 }

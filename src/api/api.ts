@@ -94,7 +94,20 @@ const getMyIntegral = async () => {
 }
 
 
+const findObuTestPage = async (props) => {
+    let sessionId = Taro.getStorageSync('sessionId')
+    const { data } = await Taro.request({
+        url: `${url}/a/exams/obuTest/findObuTestPage?jeesite.session.id=${sessionId}&start=${props.start}&length=${props.length}`,
+        method: 'GET',
+        header: {
+            'content-type': 'application/json' // 默认值
+        },
+    })
+    return data
+
+}
 
 
 
-export { login, findListType, findIntegralPage, getMyIntegral, findList }
+
+export { login, findListType, findIntegralPage, getMyIntegral, findList, findObuTestPage }

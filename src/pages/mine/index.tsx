@@ -2,8 +2,8 @@ import React from 'react'
 import { View, Text, Image } from "@tarojs/components";
 import { AtList, AtListItem } from "taro-ui"
 import Taro from '@tarojs/taro';
-
 import "./index.scss";
+import myBg from '../../assets/myBg.png'
 
 const Index = () => {
   const changeTab = val => {
@@ -13,7 +13,7 @@ const Index = () => {
   }
   return (
     <View className='mine'>
-      <Image src='https://p.qqan.com/up/2024-4/17144466518620909.jpg' mode='aspectFit' className='myBg' />
+      <Image src={myBg} mode='aspectFit' className='myBg' />
 
       <AtList className='list'>
         <AtListItem

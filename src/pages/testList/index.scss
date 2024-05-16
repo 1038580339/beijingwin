@@ -1,0 +1,46 @@
+.testListItem {
+    width: calc(100% - 42px);
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+    margin-top: 21px;
+    padding: 36px 16px;
+    border-radius: 40px;
+
+    .testListItemTitle {
+        font-size: 36px;
+        font-weight: 500;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .testListItemTitleScore {
+        font-size: 23px;
+        color: #7a7a7a;
+        margin-top: 30px;
+
+        .testListItemTitleScoreText {
+            margin-left: 60px;
+        }
+    }
+
+    .button {
+        width: 138px;
+    }
+
+    .passView {
+        text-align: center;
+
+        .pass {
+            font-size: 28px;
+            color: green;
+        }
+
+        .passScore {
+            font-size: 36px;
+            font-weight: 500;
+            margin-top: 34px;
+        }
+    }
+
+}

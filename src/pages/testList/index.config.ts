@@ -1,4 +1,4 @@
 export default {
-  navigationBarTitleText: "考试列表",
+  navigationBarTitleText: "我的考试",
   enableShareAppMessage: true
 };
